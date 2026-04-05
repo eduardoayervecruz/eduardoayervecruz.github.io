@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommoro Robotics | Experience</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Playfair+Display:wght@700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Merriweather', 'serif'],
+                        heading: ['Playfair Display', 'serif'],
+                        mono: ['Fira Code', 'monospace'],
+                    },
+                    colors: {
+                        primary: '#0f4c81',
+                        accent: '#2563eb',
+                        muted: '#64748b',
+                        surface: '#f8fafc'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-slate-800 font-sans antialiased selection:bg-primary selection:text-white">
+    <nav class="fixed inset-x-0 top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex h-16 items-center justify-between">
+                <a href="../index.html" class="font-mono text-lg font-semibold text-slate-900">Back to Home</a>
+                <a href="../index.html" class="text-sm font-medium text-primary hover:text-slate-900">Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-24 pb-20">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-10">
+                <p class="text-primary font-semibold uppercase tracking-[0.3em] text-sm">Tommoro Robotics</p>
+                <h1 class="mt-3 text-4xl md:text-5xl font-semibold text-slate-900">AI & Robotics Researcher</h1>
+                <p class="text-slate-500 text-sm mt-3">Mar 2025 – Present</p>
+            </div>
+
+            <div class="space-y-12">
+                <div class="border border-slate-200 bg-slate-50 p-8">
+                    <p class="text-slate-600 leading-relaxed">
+                        Amore Pacific Packaging Automation (Feb 2026 – Mar 2026)<br>
+                        Worked on automating packaging logistics at a factory in Osan. The system handled picking and placing products into boxes and packaging them safely. I developed the Decision Orchestrator, a company tool that manages “blocks,” where each block represents a robot action. Examples include moving to a position with linear extrapolation or running an AI inference block until the robot’s joints stabilize. Delivered a PoC demonstration with over 90% success rate.
+                    </p>
+                </div>
+
+                <div class="border border-slate-200 bg-slate-50 p-8">
+                    <p class="text-slate-600 leading-relaxed">
+                        AI Support for Habilis Console – MLOps (Jul 2025 – Jan 2026)<br>
+                        Supported the Habilis Console, a platform for training, deploying, and testing AI models on robots. Tested models including SmolVLA, Groot, Pi0.5, and ACT, and built pipelines to send requests and receive model outputs with minimal latency. Applied optimization techniques like RTC and LoRA to improve training and inference efficiency.
+                    </p>
+                </div>
+
+                <div class="border border-slate-200 bg-slate-50 p-8">
+                    <p class="text-slate-600 leading-relaxed">
+                        Agentic AI – STT → LLM/VLA → TTS Pipeline (Mar 2025 – Jun 2025)<br>
+                        Developed a ROS2 pipeline enabling humanoid robots to understand spoken commands and act accordingly. Audio input is processed by an STT model, interpreted by a LLM, and sent either to a VLA for visual-motor actions or to TTS for spoken responses. Some actions were rule-based, while others used AI inference for real-time execution.
+                    </p>
+                </div>
+            </div>
+
+            <div class="mt-12">
+                <a href="../index.html" class="inline-flex items-center gap-2 rounded-full border border-primary px-5 py-3 text-sm font-semibold text-primary transition hover:bg-primary hover:text-white">← Back to Home</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
