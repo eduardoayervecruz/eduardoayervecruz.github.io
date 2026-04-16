@@ -1,0 +1,254 @@
+{
+  "personal": {
+    "name": "Eduardo Jesus Ayerve Cruz",
+    "title": "AI & Robotics Engineer",
+    "title_es": "Ingeniero de IA y Robótica",
+    "title_ko": "AI 및 로보틱스 엔지니어",
+    "email": "eduardo.ayerve@gmail.com",
+    "phone": "+81 010-9297-2109",
+    "location": "Seoul, South Korea",
+    "location_es": "Seúl, Corea del Sur",
+    "location_ko": "서울, 대한민국",
+    "linkedin": "www.linkedin.com/in/eduardoayervecruz",
+    "github": "github.com/eduardoayervecruz",
+    "portfolio": "eduardoayervecruz.github.io"
+  },
+  "summary": "Engineer deeply interested in Physical and Agentic AI. I build intelligent systems that let robots handle real logistics and industrial work, from AI pipeline design to MLOps and production deployment.",
+  "summary_es": "Ingeniero apasionado por la IA Física y Agéntica. Construyo sistemas inteligentes que permiten a los robots realizar tareas logísticas e industriales reales, desde el diseño de pipelines de IA hasta MLOps y despliegue en producción.",
+  "summary_ko": "물리적 AI와 에이전틱 AI에 깊은 관심을 가진 엔지니어입니다. AI 파이프라인 설계부터 MLOps, 프로덕션 배포까지, 로봇이 실제 물류 및 산업 작업을 수행할 수 있는 지능형 시스템을 구축합니다.",
+  "experience": [
+    {
+      "company": "Tommoro Robotics",
+      "role": "AI & Robotics Engineer",
+      "role_es": "Ingeniero de IA y Robótica",
+      "role_ko": "AI 및 로보틱스 엔지니어",
+      "location": "Seoul, South Korea",
+      "start_date": "Mar 2025",
+      "end_date": "Present",
+      "end_date_es": "Actualidad",
+      "end_date_ko": "현재",
+      "highlights": [
+        "Developed a decision tree for Amore Pacific's Osan factory, automating packaging logistics with product picking, placement, and box dispatch operations using humanoid robots — delivered PoC with 90%+ success rate",
+        "Supported Habilis Console, a platform for training, deploying, and testing AI models on robots; tested SmolVLA, Groot, Pi0.5, and ACT models with low-latency inference pipelines",
+        "Built ROS2 pipeline enabling humanoid robots to understand spoken commands and act accordingly (STT → LLM/VLA → TTS), combining rule-based logic with AI inference for real-time visual-motor tasks",
+        "Applied optimization techniques including RTC and LoRA for model fine-tuning on robotic platforms"
+      ],
+      "highlights_es": [
+        "Desarrollé un árbol de decisiones para la fábrica de Amore Pacific en Osan, automatizando la logística de empaquetado con operaciones de recogida de productos, colocación y despacho de cajas usando robots humanoides; entregué un PoC con una tasa de éxito superior al 90 %",
+        "Di soporte a Habilis Console, una plataforma para entrenar, desplegar y probar modelos de IA en robots; probé los modelos SmolVLA, Groot, Pi0.5 y ACT con pipelines de inferencia de baja latencia",
+        "Construí un pipeline en ROS2 que permite a robots humanoides comprender comandos de voz y actuar en consecuencia (STT → LLM/VLA → TTS), combinando lógica basada en reglas con inferencia de IA para tareas visuomotoras en tiempo real",
+        "Apliqué técnicas de optimización como RTC y LoRA para el ajuste fino de modelos en plataformas robóticas"
+      ],
+      "highlights_ko": [
+        "아모레퍼시픽 오산공장을 위한 의사결정 트리를 개발하여 휴머노이드 로봇을 활용한 제품 피킹, 배치, 박스 출하 작업으로 포장 물류를 자동화 — 90% 이상의 성공률로 PoC 제공",
+        "로봇에서 AI 모델을 훈련, 배포 및 테스트하는 플랫폼인 Habilis Console을 지원; SmolVLA, Groot, Pi0.5, ACT 모델을 저지연 추론 파이프라인으로 테스트",
+        "휴머노이드 로봇이 음성 명령을 이해하고 그에 따라 행동할 수 있는 ROS2 파이프라인 구축 (STT → LLM/VLA → TTS), 규칙 기반 로직과 AI 추론을 결합하여 실시간 시각-운동 작업 수행",
+        "로봇 플랫폼에서 모델 파인튜닝을 위해 RTC 및 LoRA를 포함한 최적화 기법 적용"
+      ]
+    },
+    {
+      "company": "BioIntelligence Lab, Seoul National University",
+      "role": "Research Intern (UROP Awardee)",
+      "role_es": "Pasante de Investigación (Becario UROP)",
+      "role_ko": "연구 인턴 (UROP 수상자)",
+      "location": "Seoul, South Korea",
+      "start_date": "Jan 2025",
+      "end_date": "Jun 2025",
+      "highlights": [
+        "Selected for UROP (Undergraduate Research Opportunities Program) for the project 'Embodied AI and Vision-Language-Action Models'",
+        "Trained Vision-Language-Action (VLA) models on robotic systems including Mobile Aloha and RB-Y1 using Pi0 and ACT architectures",
+        "Collected and processed training data for real-world manipulation tasks",
+        "Fine-tuned models for robust performance in physical robot deployment scenarios"
+      ],
+      "highlights_es": [
+        "Seleccionado para el programa UROP (Programa de Oportunidades de Investigación para Pregrado) con el proyecto 'IA Embodied y Modelos de Visión-Lenguaje-Acción'",
+        "Entrené modelos de Visión-Lenguaje-Acción (VLA) en sistemas robóticos como Mobile Aloha y RB-Y1 usando las arquitecturas Pi0 y ACT",
+        "Recolecté y procesé datos de entrenamiento para tareas de manipulación en el mundo real",
+        "Realicé ajuste fino de modelos para un rendimiento robusto en escenarios de despliegue de robots físicos"
+      ],
+      "highlights_ko": [
+        "학부생 연구 기회 프로그램(UROP)에 선정 — 프로젝트: 'Embodied AI 및 Vision-Language-Action 모델'",
+        "Pi0 및 ACT 아키텍처를 사용하여 Mobile Aloha, RB-Y1 등 로봇 시스템에서 Vision-Language-Action(VLA) 모델 훈련",
+        "실제 조작 작업을 위한 학습 데이터 수집 및 처리",
+        "물리적 로봇 배포 시나리오에서 강건한 성능을 위한 모델 파인튜닝"
+      ]
+    },
+    {
+      "company": "RUBIS Lab, Seoul National University",
+      "role": "Research Intern",
+      "role_es": "Pasante de Investigación",
+      "role_ko": "연구 인턴",
+      "location": "Seoul, South Korea",
+      "start_date": "Nov 2024",
+      "end_date": "Mar 2025",
+      "highlights": [
+        "Developed AI platform for adolescent mental health support under Prof. Chang-Gun Lee",
+        "Built TTS feature and validated end-to-end pipeline (STT → LLM → TTS → MuseTalk) for real-time human-AI interaction"
+      ],
+      "highlights_es": [
+        "Desarrollé una plataforma de IA para el apoyo en salud mental de adolescentes bajo la dirección del Prof. Chang-Gun Lee",
+        "Construí la función de TTS y validé el pipeline de extremo a extremo (STT → LLM → TTS → MuseTalk) para interacción humano-IA en tiempo real"
+      ],
+      "highlights_ko": [
+        "이창건 교수님 지도하에 청소년 정신건강 지원을 위한 AI 플랫폼 개발",
+        "TTS 기능 구축 및 실시간 인간-AI 상호작용을 위한 엔드투엔드 파이프라인(STT → LLM → TTS → MuseTalk) 검증"
+      ]
+    }
+  ],
+  "featured_projects": [
+    {
+      "name": "Amore Pacific Packaging Automation",
+      "name_es": "Automatización de Empaquetado de Amore Pacific",
+      "name_ko": "아모레퍼시픽 포장 자동화",
+      "description": "Decision Orchestrator for factory logistics automation at Osan facility. Manages robot action blocks for picking, placing, and packaging with AI inference and joint stabilization monitoring. Achieved 90%+ success rate in PoC.",
+      "description_es": "Orquestador de decisiones para la automatización logística de la planta de Osan. Gestiona bloques de acción robótica para recogida, colocación y empaquetado con inferencia de IA y monitoreo de estabilización articular. Tasa de éxito superior al 90 % en PoC.",
+      "description_ko": "오산 공장 물류 자동화를 위한 의사결정 오케스트레이터. AI 추론 및 관절 안정화 모니터링을 통해 피킹, 배치, 포장 작업의 로봇 액션 블록을 관리. PoC에서 90% 이상의 성공률 달성.",
+      "tech_stack": "ROS2, VLA, Robot Action Orchestration, Computer Vision",
+      "link": ""
+    },
+    {
+      "name": "Agentic AI Pipeline for Humanoid Robots",
+      "name_es": "Pipeline de IA Agéntica para Robots Humanoides",
+      "name_ko": "휴머노이드 로봇을 위한 에이전틱 AI 파이프라인",
+      "description": "End-to-end ROS2 pipeline enabling humanoid robots to understand spoken commands and execute physical tasks. Hybrid architecture combining rule-based logic with VLA inference for real-time execution.",
+      "description_es": "Pipeline de extremo a extremo en ROS2 que permite a robots humanoides comprender comandos de voz y ejecutar tareas físicas. Arquitectura híbrida que combina lógica basada en reglas con inferencia VLA para ejecución en tiempo real.",
+      "description_ko": "휴머노이드 로봇이 음성 명령을 이해하고 물리적 작업을 수행할 수 있는 엔드투엔드 ROS2 파이프라인. 규칙 기반 로직과 VLA 추론을 결합한 하이브리드 아키텍처로 실시간 실행.",
+      "tech_stack": "ROS2, STT, LLM, VLA, TTS, Real-time AI Inference",
+      "link": ""
+    },
+    {
+      "name": "The White and Black Rat Duel",
+      "name_es": "The White and Black Rat Duel",
+      "name_ko": "The White and Black Rat Duel",
+      "description": "A 3D platformer game developed from scratch in Unity as a team project for the Principles and Practices of Software Development course. Built using Agile development workflow. Received A+ grade.",
+      "description_es": "Juego de plataformas 3D desarrollado desde cero en Unity como proyecto en equipo para el curso de Principios y Prácticas de Desarrollo de Software. Construido con metodología Agile. Calificación: A+.",
+      "description_ko": "소프트웨어 개발 원리 및 실습 수업의 팀 프로젝트로 Unity에서 처음부터 개발한 3D 플랫포머 게임. 애자일 개발 워크플로우 적용. A+ 학점 획득.",
+      "tech_stack": "Unity, C#, 3D Game Development, Agile",
+      "link": "eduardoayervecruz.github.io/projects/white_and_black_rat_duel.html"
+    }
+  ],
+  "tech_stack": {
+    "languages": "Python, C, C#, Java, JavaScript",
+    "frontend": "HTML, CSS, JavaScript, WebGazer.js",
+    "backend": "ROS2, Node.js",
+    "databases": "",
+    "devops": "Git, GitHub Actions, MLOps (Habilis Console)",
+    "tools": "PyTorch, JAX, Vision Models, LLM, VLM, VLA, Unity"
+  },
+  "education": [
+    {
+      "institution": "Seoul National University",
+      "degree": "B.S. in Computer Science and Engineering",
+      "degree_es": "Licenciatura en Ciencias de la Computación e Ingeniería",
+      "degree_ko": "컴퓨터 공학과 학사",
+      "location": "Seoul, South Korea",
+      "year": "Mar 2021 – Aug 2025",
+      "notes": "Global Korea Scholarship recipient (2020–2025). Admitted to SNU, Korea Univ., and Yonsei Univ.",
+      "notes_es": "Becario de la Beca Global de Corea (2020–2025). Admitido en SNU, Korea Univ. y Yonsei Univ.",
+      "notes_ko": "글로벌 코리아 장학금 수혜자 (2020–2025). 서울대, 고려대, 연세대 합격."
+    },
+    {
+      "institution": "Dongseo University",
+      "degree": "Korean Language Program (GKS)",
+      "degree_es": "Programa de Idioma Coreano (GKS)",
+      "degree_ko": "한국어 연수 프로그램 (GKS)",
+      "location": "Busan, South Korea",
+      "year": "Feb 2020 – Feb 2021",
+      "notes": "1-year Korean language training as part of Global Korea Scholarship",
+      "notes_es": "Formación en idioma coreano durante 1 año como parte de la Beca Global de Corea",
+      "notes_ko": "글로벌 코리아 장학금의 일환으로 1년간 한국어 연수"
+    },
+    {
+      "institution": "Pontifical Catholic University of Peru (PUCP)",
+      "degree": "Studies in Economics (1 year completed)",
+      "degree_es": "Estudios de Economía (1 año completado)",
+      "degree_ko": "경제학 과정 (1년 수료)",
+      "location": "Lima, Peru",
+      "year": "Mar 2019 – Feb 2020",
+      "notes": "COAR Excellence Scholarship — awarded to only 2 students nationwide (Aug 2018)",
+      "notes_es": "Beca de Excelencia COAR — otorgada a solo 2 estudiantes a nivel nacional (ago. 2018)",
+      "notes_ko": "COAR 우수 장학금 — 전국에서 단 2명에게만 수여 (2018년 8월)"
+    },
+    {
+      "institution": "Colegio Mayor Secundario Presidente del Perú (COAR)",
+      "degree": "International Baccalaureate Diploma Programme",
+      "degree_es": "Programa del Diploma de Bachillerato Internacional",
+      "degree_ko": "국제 바칼로레아 디플로마 프로그램",
+      "location": "Lima, Peru",
+      "year": "2016 – 2018",
+      "notes": "IB Score: 37/45 | GPA: 18.78/20.00 — Valedictorian",
+      "notes_es": "Puntuación IB: 37/45 | GPA: 18.78/20.00 — Primer puesto de la promoción",
+      "notes_ko": "IB 점수: 37/45 | GPA: 18.78/20.00 — 수석 졸업"
+    }
+  ],
+  "awards": [
+    "COAR Excellence Scholarship by PUCP — 1 of only 2 recipients nationwide, selected from Peru's 24 national gifted high schools (Aug 2018)",
+    "Global Korea Scholarship (GKS) — Full scholarship covering Korean language training, undergraduate studies, and living expenses at Seoul National University (2020–2025)",
+    "UROP (Undergraduate Research Opportunities Program) Awardee — Selected for 'Embodied AI and Vision-Language-Action Models' project at SNU BioIntelligence Lab (Jan–Jun 2025)"
+  ],
+  "awards_es": [
+    "Beca de Excelencia COAR otorgada por la PUCP — 1 de solo 2 becarios a nivel nacional, seleccionado entre las 24 escuelas de alto rendimiento del Perú (ago. 2018)",
+    "Beca Global de Corea (GKS) — Beca completa que cubre formación en idioma coreano, estudios de pregrado y gastos de manutención en la Universidad Nacional de Seúl (2020–2025)",
+    "Becario UROP (Programa de Oportunidades de Investigación para Pregrado) — Seleccionado para el proyecto 'IA Embodied y Modelos de Visión-Lenguaje-Acción' en el BioIntelligence Lab de SNU (ene.–jun. 2025)"
+  ],
+  "awards_ko": [
+    "PUCP COAR 우수 장학금 — 페루 전국 24개 영재 고등학교에서 단 2명만 선발 (2018년 8월)",
+    "글로벌 코리아 장학금(GKS) — 서울대학교에서의 한국어 연수, 학부 학업 및 생활비를 포함하는 전액 장학금 (2020–2025)",
+    "학부생 연구 기회 프로그램(UROP) 수상 — SNU BioIntelligence Lab에서 'Embodied AI 및 Vision-Language-Action 모델' 프로젝트에 선정 (2025년 1월–6월)"
+  ],
+  "extracurricular": [
+    {
+      "organization": "ASAPEC (Peru-Korea Academic Association)",
+      "organization_es": "ASAPEC (Asociación Académica Perú-Corea)",
+      "organization_ko": "ASAPEC (페루-한국 학술 협회)",
+      "role": "Member",
+      "role_es": "Miembro",
+      "role_ko": "회원",
+      "period": "Jul 2022 – Present",
+      "period_es": "Jul 2022 – Actualidad",
+      "period_ko": "2022년 7월 – 현재",
+      "highlights": [
+        "Organized '1st Latin American Researchers Gathering in Korea' (Aug 2023)",
+        "Organized 'International Employment & Visa Seminar' (Oct 2023)"
+      ],
+      "highlights_es": [
+        "Organizó el '1.er Encuentro de Investigadores Latinoamericanos en Corea' (ago. 2023)",
+        "Organizó el 'Seminario Internacional de Empleo y Visas' (oct. 2023)"
+      ],
+      "highlights_ko": [
+        "'제1회 한국 라틴아메리카 연구자 모임' 기획 (2023년 8월)",
+        "'국제 취업 및 비자 세미나' 기획 (2023년 10월)"
+      ]
+    },
+    {
+      "organization": "Seoul National University Global Culture Education Program",
+      "organization_es": "Programa de Educación Cultural Global de la Universidad Nacional de Seúl",
+      "organization_ko": "서울대학교 글로벌 문화 교육 프로그램",
+      "role": "Elementary/Middle School Teacher",
+      "role_es": "Profesor de Primaria y Secundaria",
+      "role_ko": "초·중학교 강사",
+      "period": "May 2023 – Present",
+      "period_es": "May 2023 – Actualidad",
+      "period_ko": "2023년 5월 – 현재",
+      "highlights": [
+        "Teaches Peruvian culture to elementary and middle school students in Gangnam-gu as part of SNU's multicultural education initiative"
+      ],
+      "highlights_es": [
+        "Enseña cultura peruana a estudiantes de primaria y secundaria en Gangnam-gu como parte de la iniciativa de educación multicultural de SNU"
+      ],
+      "highlights_ko": [
+        "SNU 다문화 교육 프로그램의 일환으로 강남구 초·중학생에게 페루 문화 교육"
+      ]
+    }
+  ],
+  "certifications": [
+    "TOEFL iBT — C1 Level, 100/120 (Aug 2024)",
+    "TOEIC Speaking — 160/200 (Apr 2024)",
+    "TOPIK IBT — Level 5, 383/600 (Feb 2025)"
+  ],
+  "languages_spoken": [
+    {"language": "Spanish", "level": "Mother Tongue", "language_es": "Español", "level_es": "Lengua materna", "language_ko": "스페인어", "level_ko": "모국어"},
+    {"language": "English", "level": "Native Proficiency (TOEFL 100/120)", "language_es": "Inglés", "level_es": "Competencia nativa (TOEFL 100/120)", "language_ko": "영어", "level_ko": "원어민 수준 (TOEFL 100/120)"},
+    {"language": "Korean", "level": "Upper Intermediate (TOPIK 5)", "language_es": "Coreano", "level_es": "Intermedio alto (TOPIK 5)", "language_ko": "한국어", "level_ko": "중상급 (TOPIK 5)"}
+  ]
+}

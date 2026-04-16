@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo Jesus Ayerve Cruz — CV</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 30px;
+            background: #fff;
+        }
+
+        /* Header */
+        .header { display: flex; align-items: flex-start; margin-bottom: 30px; gap: 20px; }
+        .header-info { flex: 1; }
+        .header-info h1 {
+            font-size: 28px; font-weight: 700;
+            color: #000; margin-bottom: 4px;
+        }
+        .header-info .title {
+            font-size: 14px; color: #333;
+            font-weight: 600; margin-bottom: 8px;
+        }
+        .header-info .contact {
+            font-size: 12px; color: #333; line-height: 1.8;
+        }
+        .header-info .contact a {
+            color: #333; text-decoration: none;
+        }
+        .header-info .contact a:hover { text-decoration: underline; }
+        .header-portrait {
+            flex-shrink: 0;
+        }
+        .header-portrait img {
+            width: 110px; height: 140px;
+            object-fit: cover; border-radius: 4px;
+        }
+
+        /* Sections */
+        section { margin-bottom: 20px; }
+        h2 {
+            font-size: 13px; font-weight: 700;
+            color: #000; text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #000;
+            padding-bottom: 4px; margin-bottom: 12px;
+        }
+
+        /* Entries */
+        .entry { margin-bottom: 14px; }
+        .entry-header { display: flex; justify-content: space-between; align-items: baseline; }
+        .role { font-weight: 600; font-size: 13px; }
+        .entry-meta { font-size: 11px; color: #333; margin-bottom: 4px; }
+        .entry-notes { font-size: 11px; color: #555; margin-top: 2px; }
+
+        ul { padding-left: 20px; margin-top: 4px; }
+        li { font-size: 12px; margin-bottom: 3px; }
+
+        /* Tech stack */
+        .stack-row { font-size: 12px; margin-bottom: 3px; }
+
+        /* Language rows */
+        .lang-row { font-size: 12px; margin-bottom: 3px; }
+
+        /* Projects */
+        .project-link {
+            font-size: 11px; color: #333;
+            text-decoration: none; margin-left: 4px;
+        }
+        .tech-label { font-size: 11px; color: #555; margin-top: 2px; }
+
+        p { font-size: 12px; margin-bottom: 4px; }
+
+        /* Print */
+        @media print {
+            body { padding: 20px; max-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-info">
+            <h1>Eduardo Jesus Ayerve Cruz</h1>
+            <div class="title">AI & Robotics Engineer</div>
+            <div class="contact"><a href="mailto:eduardo.ayerve@gmail.com">eduardo.ayerve@gmail.com</a><br>+81 010-9297-2109<br>Seoul, South Korea<br><a href="https://www.linkedin.com/in/eduardoayervecruz">www.linkedin.com/in/eduardoayervecruz</a><br><a href="https://github.com/eduardoayervecruz">github.com/eduardoayervecruz</a></div>
+        </div>
+        <div class="header-portrait">
+            <img src="portrait.jpg" alt="Portrait">
+        </div>
+    </div>
+
+    <section>
+        <h2>Professional Summary</h2>
+        <p>Engineer deeply interested in Physical and Agentic AI. I build intelligent systems that let robots handle real logistics and industrial work, from AI pipeline design to MLOps and production deployment.</p>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">AI & Robotics Engineer  —  Tommoro Robotics</span>
+            </div>
+            <div class="entry-meta">Mar 2025 – Present  |  Seoul, South Korea</div>
+            <ul><li>Developed a decision tree for Amore Pacific's Osan factory, automating packaging logistics with product picking, placement, and box dispatch operations using humanoid robots — delivered PoC with 90%+ success rate</li>
+<li>Supported Habilis Console, a platform for training, deploying, and testing AI models on robots; tested SmolVLA, Groot, Pi0.5, and ACT models with low-latency inference pipelines</li>
+<li>Built ROS2 pipeline enabling humanoid robots to understand spoken commands and act accordingly (STT → LLM/VLA → TTS), combining rule-based logic with AI inference for real-time visual-motor tasks</li>
+<li>Applied optimization techniques including RTC and LoRA for model fine-tuning on robotic platforms</li></ul>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">Research Intern (UROP Awardee)  —  BioIntelligence Lab, Seoul National University</span>
+            </div>
+            <div class="entry-meta">Jan 2025 – Jun 2025  |  Seoul, South Korea</div>
+            <ul><li>Selected for UROP (Undergraduate Research Opportunities Program) for the project 'Embodied AI and Vision-Language-Action Models'</li>
+<li>Trained Vision-Language-Action (VLA) models on robotic systems including Mobile Aloha and RB-Y1 using Pi0 and ACT architectures</li>
+<li>Collected and processed training data for real-world manipulation tasks</li>
+<li>Fine-tuned models for robust performance in physical robot deployment scenarios</li></ul>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">Research Intern  —  RUBIS Lab, Seoul National University</span>
+            </div>
+            <div class="entry-meta">Nov 2024 – Mar 2025  |  Seoul, South Korea</div>
+            <ul><li>Developed AI platform for adolescent mental health support under Prof. Chang-Gun Lee</li>
+<li>Built TTS feature and validated end-to-end pipeline (STT → LLM → TTS → MuseTalk) for real-time human-AI interaction</li></ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Featured Projects</h2>
+        
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">Amore Pacific Packaging Automation</span>
+            </div>
+            <p>Decision Orchestrator for factory logistics automation at Osan facility. Manages robot action blocks for picking, placing, and packaging with AI inference and joint stabilization monitoring. Achieved 90%+ success rate in PoC.</p>
+            <div class="tech-label"><strong>Tech:</strong> ROS2, VLA, Robot Action Orchestration, Computer Vision</div>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">Agentic AI Pipeline for Humanoid Robots</span>
+            </div>
+            <p>End-to-end ROS2 pipeline enabling humanoid robots to understand spoken commands and execute physical tasks. Hybrid architecture combining rule-based logic with VLA inference for real-time execution.</p>
+            <div class="tech-label"><strong>Tech:</strong> ROS2, STT, LLM, VLA, TTS, Real-time AI Inference</div>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">The White and Black Rat Duel <a href="https://eduardoayervecruz.github.io/projects/white_and_black_rat_duel.html" class="project-link">↗</a></span>
+            </div>
+            <p>A 3D platformer game developed from scratch in Unity as a team project for the Principles and Practices of Software Development course. Built using Agile development workflow. Received A+ grade.</p>
+            <div class="tech-label"><strong>Tech:</strong> Unity, C#, 3D Game Development, Agile</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Tech Stack</h2>
+        <div class="stack-row"><strong>Languages:</strong> Python, C, C#, Java, JavaScript</div>
+<div class="stack-row"><strong>Frontend:</strong> HTML, CSS, JavaScript, WebGazer.js</div>
+<div class="stack-row"><strong>Backend:</strong> ROS2, Node.js</div>
+<div class="stack-row"><strong>DevOps & Cloud:</strong> Git, GitHub Actions, MLOps (Habilis Console)</div>
+<div class="stack-row"><strong>Tools:</strong> PyTorch, JAX, Vision Models, LLM, VLM, VLA, Unity</div>
+
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">B.S. in Computer Science and Engineering  —  Seoul National University</span>
+            </div>
+            <div class="entry-meta">Mar 2021 – Aug 2025  |  Seoul, South Korea</div>
+            <div class="entry-notes">Global Korea Scholarship recipient (2020–2025). Admitted to SNU, Korea Univ., and Yonsei Univ.</div>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">Korean Language Program (GKS)  —  Dongseo University</span>
+            </div>
+            <div class="entry-meta">Feb 2020 – Feb 2021  |  Busan, South Korea</div>
+            <div class="entry-notes">1-year Korean language training as part of Global Korea Scholarship</div>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">Studies in Economics (1 year completed)  —  Pontifical Catholic University of Peru (PUCP)</span>
+            </div>
+            <div class="entry-meta">Mar 2019 – Feb 2020  |  Lima, Peru</div>
+            <div class="entry-notes">COAR Excellence Scholarship — awarded to only 2 students nationwide (Aug 2018)</div>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">International Baccalaureate Diploma Programme  —  Colegio Mayor Secundario Presidente del Perú (COAR)</span>
+            </div>
+            <div class="entry-meta">2016 – 2018  |  Lima, Peru</div>
+            <div class="entry-notes">IB Score: 37/45 | GPA: 18.78/20.00 — Valedictorian</div>
+        </div>
+    </section>
+
+    
+    <section>
+        <h2>Awards & Honors</h2>
+        <ul><li>COAR Excellence Scholarship by PUCP — 1 of only 2 recipients nationwide, selected from Peru's 24 national gifted high schools (Aug 2018)</li>
+<li>Global Korea Scholarship (GKS) — Full scholarship covering Korean language training, undergraduate studies, and living expenses at Seoul National University (2020–2025)</li>
+<li>UROP (Undergraduate Research Opportunities Program) Awardee — Selected for 'Embodied AI and Vision-Language-Action Models' project at SNU BioIntelligence Lab (Jan–Jun 2025)</li></ul>
+    </section>
+    
+    <section>
+        <h2>Certifications</h2>
+        <ul><li>TOEFL iBT — C1 Level, 100/120 (Aug 2024)</li>
+<li>TOEIC Speaking — 160/200 (Apr 2024)</li>
+<li>TOPIK IBT — Level 5, 383/600 (Feb 2025)</li></ul>
+    </section>
+    
+    <section>
+        <h2>Extracurricular Activities</h2>
+        
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">Member  —  ASAPEC (Peru-Korea Academic Association)</span>
+            </div>
+            <div class="entry-meta">Jul 2022 – Present</div>
+            <ul><li>Organized '1st Latin American Researchers Gathering in Korea' (Aug 2023)</li>
+<li>Organized 'International Employment & Visa Seminar' (Oct 2023)</li></ul>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="role">Elementary/Middle School Teacher  —  Seoul National University Global Culture Education Program</span>
+            </div>
+            <div class="entry-meta">May 2023 – Present</div>
+            <ul><li>Teaches Peruvian culture to elementary and middle school students in Gangnam-gu as part of SNU's multicultural education initiative</li></ul>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Languages</h2>
+        <div class="lang-row"><strong>Spanish:</strong> Mother Tongue</div>
+<div class="lang-row"><strong>English:</strong> Native Proficiency (TOEFL 100/120)</div>
+<div class="lang-row"><strong>Korean:</strong> Upper Intermediate (TOPIK 5)</div>
+    </section>
+</body>
+</html>
